@@ -22,16 +22,38 @@
 
 # misc
 .DS_Store
+Thumbs.db
+Desktop.ini
 *.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.mobileprovision
+
+# local editor and agent state
+.idea/
+.vscode/
+.cline/
+*.swp
+*.swo
+*~
+
+# local archives and exports
+/CV Bintang Danuarta.pdf
+/cv_bintang_danuarta.md
 
 # debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+*.log
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
 
 # vercel
 .vercel
@@ -39,3 +61,4 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+DEPLOYMENT.md

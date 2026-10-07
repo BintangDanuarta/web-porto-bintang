@@ -1,8 +1,12 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useSyncExternalStore } from "react";
+import { createPortal } from "react-dom";
+
+const noopSubscribe = () => () => {};
 
 export default function PortfolioMotion() {
   const [open, setOpen] = useState(false);
+  const mounted = useSyncExternalStore(noopSubscribe, () => true, () => false);
   useEffect(() => {
     const header = document.querySelector(".site-header");
     const update = () => header?.classList.toggle("is-scrolled", window.scrollY > 48);
@@ -89,5 +93,26 @@ export default function PortfolioMotion() {
     window.addEventListener("keydown", escape);
     return () => window.removeEventListener("keydown", escape);
   }, []);
-  return <div className="mobile-navigation"><button className="menu-toggle" aria-expanded={open} aria-controls="mobile-menu" onClick={() => setOpen(!open)}>{open ? "Close −" : "Menu +"}</button><nav id="mobile-menu" className="mobile-menu" hidden={!open} aria-label="Mobile navigation">{[["Work", "#work"], ["About", "#about"], ["Contact", "#contact"]].map(([label, href]) => <a key={href} href={href} onClick={() => setOpen(false)}>{label}<span>↗</span></a>)}</nav></div>;
+  useEffect(() => {
+    document.body.classList.toggle("mobile-menu-open", open);
+    return () => document.body.classList.remove("mobile-menu-open");
+  }, [open]);
+  return <>
+    <div className="mobile-navigation">
+      <button className="menu-toggle" type="button" aria-expanded={open} aria-controls="mobile-menu" onClick={() => setOpen(true)}>
+        <span>Menu</span><span className="menu-toggle-icon" aria-hidden="true">+</span>
+      </button>
+    </div>
+    {open && mounted ? createPortal(<div id="mobile-menu" className="mobile-menu" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+      <div className="mobile-menu-head">
+        <span className="mobile-menu-title">Menu</span>
+        <button className="menu-close" type="button" autoFocus onClick={() => setOpen(false)}>
+          <span>Close</span><span className="menu-toggle-icon" aria-hidden="true">×</span>
+        </button>
+      </div>
+      <nav className="mobile-menu-nav" aria-label="Sections">
+        {[["Work", "#work"], ["About", "#about"], ["Contact", "#contact"]].map(([label, href], index) => <a key={href} href={href} onClick={() => setOpen(false)}><span className="mobile-menu-index">0{index + 1}</span><span className="mobile-menu-label">{label}</span><span className="mobile-menu-arrow" aria-hidden="true">↗</span></a>)}
+      </nav>
+    </div>, document.body) : null}
+  </>;
 }
