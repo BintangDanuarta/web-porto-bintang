@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "Timeless Serif";
+  src: url("./TimelessSerif-Thin.woff2") format("woff2"),
+    url("../Desktop/TimelessSerif-Thin.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
