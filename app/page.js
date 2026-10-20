@@ -3,9 +3,10 @@ import SplashScreen from "./SplashScreen";
 import PortfolioMotion from "./PortfolioMotion";
 import PdfShowcase from "./PdfShowcase";
 import GallerySection from "./GallerySection";
-import SkyGradient from "./SkyGradient";
+import HeroCollage from "./HeroCollage";
 import ThemeToggle from "./ThemeToggle";
 import HoverSky from "./HoverSky";
+import GlassSurface from "./GlassSurface";
 
 const projects = [
   { title: "Simkopdes", type: "Public services · Design system", url: "https://simkopdes.go.id/", image: "simkopdes", description: "A portal for Koperasi Desa/Kelurahan Merah Putih. Cooperative services, brought into one place.", color: "sage" },
@@ -16,7 +17,6 @@ const projects = [
 ];
 const experience = [
   ["Kementerian Koperasi RI", "UI/UX Designer", "Mar 2025 — Present", "Design systems and frontend for Koperasi Merah Putih."],
-  ["KontraS", "UI/UX Designer", "Sep 2023 — Mar 2024", "Website redesign, user flows, navigation, and visual identity."],
 ];
 const achievements = [
   ["1st place", "UI/UX Competition", "Pekan IT 2022"],
@@ -34,16 +34,17 @@ export default function Home() {
   return <>
     <SplashScreen />
     <a className="skip-link" href="#main">Skip to content</a>
-    <div className="header-shell"><header className="site-header"><a className="wordmark" href="#top" aria-label="Bintang Danuarta, home"><Image src="/images/logo.png" alt="Bintang Danuarta" width={48} height={48} priority /></a><nav className="desktop-nav" aria-label="Primary"><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Let’s talk ↗</a></nav><ThemeToggle /><PortfolioMotion /></header></div>
+    <div className="header-shell"><header className="site-header"><GlassSurface className="navbar-glass" /><a className="wordmark" href="#top" aria-label="Bintang Danuarta, home"><Image src="/images/logo.png" alt="Bintang Danuarta" width={48} height={48} priority /></a><nav className="desktop-nav" aria-label="Primary"><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Let’s talk ↗</a></nav><ThemeToggle /><PortfolioMotion /></header></div>
     <main id="main">
-      <section className="hero hero-sky" id="top" aria-labelledby="hero-title">
-        <div className="hero-sky-bg" aria-hidden="true"><SkyGradient /></div>
+      <section className="hero hero-orbit" id="top" aria-labelledby="hero-title">
+        <HeroCollage />
         <div className="hero-content">
-          <div className="hero-topline"><span>Hello I'm...</span></div>
+          <div className="hero-topline"><span>Hello I’m...</span></div>
         <h1 id="hero-title" className="hero-name"><span>BINTANG</span><span>DANUARTA<span className="name-period">.</span></span></h1>
         <p className="hero-intro"><span className="wordflip" aria-label="Designer · Developer · Creative thinker"><span>Designer</span><span>Developer</span><span>Creative thinker</span></span><span className="intro-suffix">— shaping ideas into digital experiences.</span></p>
-        <div className="hero-caption"><span>Portofolio Page</span><span>Scroll to explore ↓</span></div>
+        <a className="hero-work-link" href="#work">View selected work</a>
         </div>
+        <div className="hero-caption"><span>Selected projects in orbit</span><span>Scroll to explore ↓</span></div>
       </section>
       <section className="work-section" id="work" aria-labelledby="work-title">
         <div className="section-heading" data-reveal><p className="eyebrow">01 / Selected work</p><h2 id="work-title">What  <span className="serif-text">I do</span></h2><p className="section-intro">Five projects across public services, productivity, play, and everyday life.</p></div>

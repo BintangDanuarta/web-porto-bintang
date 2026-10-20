@@ -1,0 +1,367 @@
+[
+  {
+    "path": "bintang-danuarta-cv.pdf",
+    "sha256": "02669f1c0e3972ab589721d94199cc37b933325fa6f3292629a79d3591042efd",
+    "bytes": 2389739
+  },
+  {
+    "path": "file.svg",
+    "sha256": "2b67812c325c199a02536cdbeea0c593a72f707d323b72ee3e08dbab06753bd4",
+    "bytes": 391
+  },
+  {
+    "path": "globe.svg",
+    "sha256": "b614b9bf183925957661ac851498fe1d8029fd43a62fbfed86f9e2624a57e7cf",
+    "bytes": 1035
+  },
+  {
+    "path": "images/Pattern 1.svg",
+    "sha256": "e28c685af0d754c9ffa26803cda3c74e6bc491a004378d4bc7868513a59a9b05",
+    "bytes": 4088
+  },
+  {
+    "path": "images/Pattern 2.svg",
+    "sha256": "8864a307c186d37e72f082a4bad9b13bc68670b10bc9b7879f7664ec06c773d6",
+    "bytes": 4094
+  },
+  {
+    "path": "images/bintang.jpg",
+    "sha256": "908e8f7f54a00f6ff53be2dbba5beaf22a23bdb591a62f75a95e15b8f76503c5",
+    "bytes": 250586
+  },
+  {
+    "path": "images/gallery/Frame 10.jpg",
+    "sha256": "57b3f0886ceec4dd9cc0d67f298add1c3fd7a69e2116540331ef02b173d86896",
+    "bytes": 137686
+  },
+  {
+    "path": "images/gallery/Frame 11.jpg",
+    "sha256": "8b905f499a9a7f33a54d097dbdaaddccd470decccf2ee1b792445a82d284790f",
+    "bytes": 201216
+  },
+  {
+    "path": "images/gallery/Frame 12.jpg",
+    "sha256": "179a186822254423105558c16d819f5dd5d4b6589c29417cbbd83c555c8d7bb7",
+    "bytes": 161341
+  },
+  {
+    "path": "images/gallery/Frame 13.jpg",
+    "sha256": "2513f999d4b8378703046a075707b2eb99b60f04daae8e30fa04d3a8cc993f19",
+    "bytes": 219412
+  },
+  {
+    "path": "images/gallery/Frame 14.jpg",
+    "sha256": "45369971ee3f9b8a306b43c3e0b68964961aaf7a4521c492b5624718a715ca8c",
+    "bytes": 345891
+  },
+  {
+    "path": "images/gallery/Frame 15.jpg",
+    "sha256": "053d121a122e63324a317182ab3de87ab6087f40c02dcb712570888cf57cb71a",
+    "bytes": 239611
+  },
+  {
+    "path": "images/gallery/Frame 16.jpg",
+    "sha256": "cb83748a5ebeb62f79f34236512c3770eb89f764b708bc855a6130ab971fbab3",
+    "bytes": 131057
+  },
+  {
+    "path": "images/gallery/Frame 17.jpg",
+    "sha256": "ff5e79afdc319f8749b53314755bca26888999411badae29cad84773cfec6679",
+    "bytes": 457172
+  },
+  {
+    "path": "images/gallery/Frame 18.jpg",
+    "sha256": "e8f542e1c12b4b6f1ec4e8f96c4e82cdb8a8667ffabce96a78a6164c119efb45",
+    "bytes": 307712
+  },
+  {
+    "path": "images/gallery/Frame 19.jpg",
+    "sha256": "fab3a95b020e4484f4391737b8304edae8c051be5b88d76dae715d13333d4365",
+    "bytes": 512340
+  },
+  {
+    "path": "images/gallery/Frame 20.jpg",
+    "sha256": "4e2bf48c1ba996eb82a0dc6ea84b90e3e9c4c9fc8a3720fbdd13fa00b888dd96",
+    "bytes": 374816
+  },
+  {
+    "path": "images/gallery/Frame 21.jpg",
+    "sha256": "84222386df77a08e6bb6c382770129391fd1a3ce664ff529e85d4f79f4a2fb2a",
+    "bytes": 114867
+  },
+  {
+    "path": "images/gallery/Frame 22.jpg",
+    "sha256": "a185cde059f7e308701f516892371b583e19f3a81bf623569c0f251ba3b60a34",
+    "bytes": 164148
+  },
+  {
+    "path": "images/gallery/Frame 23.jpg",
+    "sha256": "179a186822254423105558c16d819f5dd5d4b6589c29417cbbd83c555c8d7bb7",
+    "bytes": 161341
+  },
+  {
+    "path": "images/gallery/Frame 24.jpg",
+    "sha256": "8553827ed1d2796ed9706f580ba0d27e3a01a168e3a619176051fb283f276c08",
+    "bytes": 79295
+  },
+  {
+    "path": "images/gallery/Frame 25.jpg",
+    "sha256": "cfe2a12dc01128d47a976698b73a031187cfe080b0c56b2c2b2f706a99580cab",
+    "bytes": 321606
+  },
+  {
+    "path": "images/gallery/Frame 26.jpg",
+    "sha256": "2604dd2a177542721f6163abd55c8b2a23008eabfe62bfaa1cb4e92f5086334f",
+    "bytes": 284365
+  },
+  {
+    "path": "images/gallery/Frame 27.jpg",
+    "sha256": "deba6dc7f071d6b2ffe911901afe6f0bb25d94411efa6d1e6bcde8534c532167",
+    "bytes": 183758
+  },
+  {
+    "path": "images/gallery/Frame 28.jpg",
+    "sha256": "52e92d94313903d2332092162c3c14af4909fe458ebabd687296824067e4bdac",
+    "bytes": 423921
+  },
+  {
+    "path": "images/gallery/Frame 29.jpg",
+    "sha256": "72e1573c73e907d03f9d8d3c51f0f908a2ea80d7ec1bcd54ef8ea82c9b2397b5",
+    "bytes": 302835
+  },
+  {
+    "path": "images/gallery/Frame 30.jpg",
+    "sha256": "ea0d6b0a01c9aa675b81ef42e838cfa94cc917200872d71f95f17c9928a13b5a",
+    "bytes": 541318
+  },
+  {
+    "path": "images/gallery/Frame 31.jpg",
+    "sha256": "982eac0ff233cc686ae8441754307b901c2bb53554a3fc541cae9976f834997b",
+    "bytes": 260360
+  },
+  {
+    "path": "images/gallery/Frame 32.jpg",
+    "sha256": "bd17194c797fc0c65884d732146cff548df4c27d6660f6fb76dbd4752ca387b2",
+    "bytes": 294035
+  },
+  {
+    "path": "images/gallery/Frame 33.jpg",
+    "sha256": "e5867e2e4ab5f81444643bb90c91365e1d9383b337557a7c82acb4bf84f3c2a3",
+    "bytes": 206275
+  },
+  {
+    "path": "images/gallery/Frame 34.jpg",
+    "sha256": "20f3d4907992f1a54886883fd59f24e71ba482867a06acd059221b64b9130224",
+    "bytes": 140350
+  },
+  {
+    "path": "images/gallery/Frame 35.jpg",
+    "sha256": "ecbd1dbfeb0c6dc33a202e508634b0be408f7b5fc90468ee407d6cee3628c1b8",
+    "bytes": 108904
+  },
+  {
+    "path": "images/gallery/Frame 36.jpg",
+    "sha256": "a00a58ac74aa69e886d54930f3bface4e3e29a6f0f4436819c8cf16470014a36",
+    "bytes": 368045
+  },
+  {
+    "path": "images/gallery/Frame 37.jpg",
+    "sha256": "8ab0a07c563b5beb77e0e08544f7c6c76043e9e694728a6d05288dafb4e8231e",
+    "bytes": 189072
+  },
+  {
+    "path": "images/gallery/Frame 38.jpg",
+    "sha256": "1ecd0c34ba601bcdbe40e27eaf7984c6d21b0ce42d5ce292eae7765d551ef119",
+    "bytes": 149571
+  },
+  {
+    "path": "images/gallery/Frame 39.jpg",
+    "sha256": "e5452c4d089c6edf514caabb793ac0a1828dcca9aaff155bee379066a22b0837",
+    "bytes": 648804
+  },
+  {
+    "path": "images/gallery/Frame 4.jpg",
+    "sha256": "a39a690e6629b4c2ce3414d63a07b667efc582775b8b0d3d17ef235bb6df80cf",
+    "bytes": 225619
+  },
+  {
+    "path": "images/gallery/Frame 40.jpg",
+    "sha256": "4882c0c70952e174e2a08dec05025b138bbdafeed24dbe76c78e4a8a454b1d63",
+    "bytes": 306322
+  },
+  {
+    "path": "images/gallery/Frame 41.jpg",
+    "sha256": "f85b1b687ac0765f5e67e76bc2f8fb761459f7da33e193830a1955b93e60da19",
+    "bytes": 321821
+  },
+  {
+    "path": "images/gallery/Frame 42.jpg",
+    "sha256": "8daee60d70953e55f7a53a34c97c3bd8a2dc40944565b7420df19082d5198e4e",
+    "bytes": 266709
+  },
+  {
+    "path": "images/gallery/Frame 43.jpg",
+    "sha256": "47ae32c04145ae780e20f01ee302788edca3d5f445946a6b1a4683c34cb63833",
+    "bytes": 213924
+  },
+  {
+    "path": "images/gallery/Frame 44.jpg",
+    "sha256": "efcc0fe59d7a8205a4359d6a602ce37f1e717134b2e116498a496976d6bb2cce",
+    "bytes": 248378
+  },
+  {
+    "path": "images/gallery/Frame 45.jpg",
+    "sha256": "210d8334f49d28b654658af39232e71d1e17c1d0b85ebecd9fd7705a7d27b4aa",
+    "bytes": 89004
+  },
+  {
+    "path": "images/gallery/Frame 46.jpg",
+    "sha256": "72a0d07a35d844ecd16f7077d662972d0b1bc8f4c90bc53b7a979650fe507a33",
+    "bytes": 162537
+  },
+  {
+    "path": "images/gallery/Frame 47.jpg",
+    "sha256": "3a50d4187bd0dd3c8961cc37405f09056e7e3746968d87f7c720a92ff4bd2bb2",
+    "bytes": 463383
+  },
+  {
+    "path": "images/gallery/Frame 48.jpg",
+    "sha256": "4f54f4b534db8cac179fd869409331bc3ca4f94b453c85a4c759eeda40b8c5bd",
+    "bytes": 270620
+  },
+  {
+    "path": "images/gallery/Frame 49.jpg",
+    "sha256": "6b58865ff0078faf894badabcc4934b62c0ae9a161a8e1af8cba5e2c4bcc9853",
+    "bytes": 140086
+  },
+  {
+    "path": "images/gallery/Frame 5.jpg",
+    "sha256": "9c0ba3fc878a292934150e28144f8f6e6d67107ad46ac2704850ef448c114d2a",
+    "bytes": 136228
+  },
+  {
+    "path": "images/gallery/Frame 50.jpg",
+    "sha256": "a191c7f46427ddcfda9931ab6c18bebc296a0ef9cc930bdc823e5a53878fb49a",
+    "bytes": 303136
+  },
+  {
+    "path": "images/gallery/Frame 51.jpg",
+    "sha256": "dc31a72f2790fbcd38851e0f9f68c329f380b5e205ab9ba605d0f4bd2c6f336b",
+    "bytes": 320156
+  },
+  {
+    "path": "images/gallery/Frame 52.jpg",
+    "sha256": "3a48a7134fbc6cbf45047889620a886e83281d3cf8923dd3c4e680e9aa973e15",
+    "bytes": 415364
+  },
+  {
+    "path": "images/gallery/Frame 53.jpg",
+    "sha256": "b09b0a5d82ca277cd450eca8f33183d70f2fc18fbde627d737acb15d9ad24700",
+    "bytes": 235162
+  },
+  {
+    "path": "images/gallery/Frame 6.jpg",
+    "sha256": "9fd21ff5c9a8c0c92e371eabce42ab308aa54927ef2eee57af1200a67600808f",
+    "bytes": 367367
+  },
+  {
+    "path": "images/gallery/Frame 7.jpg",
+    "sha256": "cf25e7c1fa3e7dcc252d094ce289dde697ebffa4c80f0a34c70b1fc87dff4a28",
+    "bytes": 348910
+  },
+  {
+    "path": "images/gallery/Frame 8.jpg",
+    "sha256": "4e8ce6babb6cf85832c64921bff60c137ccdd81571bdbe49a27045c81ca37dfb",
+    "bytes": 438068
+  },
+  {
+    "path": "images/gallery/Frame 9.jpg",
+    "sha256": "b5e1316c202d00cd6f81238867056e5a2c06de243a4a9cc42bd397438fdce64b",
+    "bytes": 558346
+  },
+  {
+    "path": "images/logo.png",
+    "sha256": "cab0142b7cc9368c2ed48c057b139d13d78f8598fcdf7aec9d04d49ec8eccbd1",
+    "bytes": 137628
+  },
+  {
+    "path": "next.svg",
+    "sha256": "55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc",
+    "bytes": 1375
+  },
+  {
+    "path": "pdfs/cooptrade-preview.jpg",
+    "sha256": "9eefca6b3916049c611e63f5ba30c91b6bbc54b255353a8c42386530aa98a2ea",
+    "bytes": 49410
+  },
+  {
+    "path": "pdfs/hackathon-preview.jpg",
+    "sha256": "7d41d4694912484372db825a947b53c8efcd407adff4747d39232beceba20bf1",
+    "bytes": 50480
+  },
+  {
+    "path": "pdfs/identitas-cooptrade.pdf",
+    "sha256": "4e30144ecdb52b4fb11f229eafbf4397af2963983aa0293db9a02d2b2e6e79c4",
+    "bytes": 13742435
+  },
+  {
+    "path": "pdfs/identitas-hackathon.pdf",
+    "sha256": "bbc1f741d77a6a30d18af8906e13ecc10d12cf31934bda6e8bb99d9541598775",
+    "bytes": 35567526
+  },
+  {
+    "path": "pdfs/identitas-pakta.pdf",
+    "sha256": "a561f47072e2ba9237a6ef546bffe921e2cfa98a62e86fb31c7657844d904ec9",
+    "bytes": 364546987
+  },
+  {
+    "path": "pdfs/identitas-simkopdes.pdf",
+    "sha256": "d2ebbb50a856bc9a6548f75a267f6ebb9dbbca5f463b1b71ce4f8c66cb3c23bb",
+    "bytes": 6165494
+  },
+  {
+    "path": "pdfs/pakta-preview.jpg",
+    "sha256": "73be98a0301fd3fe24ae7680adfdfcdb63f5f5aa88f3e19c50e9dd8cffadf56b",
+    "bytes": 37370
+  },
+  {
+    "path": "pdfs/simkopdes-preview.jpg",
+    "sha256": "b25580fe6d4a2aefc33124d636ada16de7bf81d8f6ab5095d641342ad8540f06",
+    "bytes": 39965
+  },
+  {
+    "path": "projects/agenda.jpg",
+    "sha256": "7e77fc5a57f3e42ef2bf9882375e7745612928679f01f2f02c48eba3d90b705b",
+    "bytes": 92381
+  },
+  {
+    "path": "projects/arcade.jpg",
+    "sha256": "7c91a34375a674f3ed8d79ae4211c18f808ef94852164114607e3e8876000a99",
+    "bytes": 82210
+  },
+  {
+    "path": "projects/sambi.jpg",
+    "sha256": "eebc8a7a57e2d659fa49cb5648d287b310695502cd81286787d4c04f530b6f07",
+    "bytes": 110060
+  },
+  {
+    "path": "projects/simkopdes.jpg",
+    "sha256": "a8aefa3e9d88ed02a9221d2b7dbd6cf324ceb85ade6ea0c32a1d24a0a1d65a82",
+    "bytes": 178945
+  },
+  {
+    "path": "projects/treash.jpg",
+    "sha256": "a0dc4a07b51648fc70aa77bbfd3ec15d8206aaae76f13953fcf5e16c5f56ece6",
+    "bytes": 282592
+  },
+  {
+    "path": "vercel.svg",
+    "sha256": "f081337b2fee635b455b63275406a3e7f39d6a014e25ad90dab5a67e62a12ac4",
+    "bytes": 128
+  },
+  {
+    "path": "window.svg",
+    "sha256": "644768c4aaeb4767bce293344eeb0c125fb804a94d801440424072202d85e3a1",
+    "bytes": 385
+  }
+]
