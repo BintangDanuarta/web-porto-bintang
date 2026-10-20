@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import HoverSky from "./HoverSky";
 import { useEffect, useRef, useState } from "react";
 
 const documents = [
@@ -40,7 +41,7 @@ export default function PdfShowcase() {
 
       {documents.length ? (
         <>
-          <div className="pdf-carousel" aria-roledescription="carousel" aria-label="Portfolio PDF documents">
+          <HoverSky className="pdf-carousel" aria-roledescription="carousel" aria-label="Portfolio PDF documents">
             <button className="pdf-nav pdf-nav-prev" type="button" onClick={() => move(-1)} aria-label="Previous document">‹</button>
             <div className="pdf-stage" aria-live="polite">
               {documents.map((document, index) => {
@@ -55,7 +56,7 @@ export default function PdfShowcase() {
               })}
             </div>
             <button className="pdf-nav pdf-nav-next" type="button" onClick={() => move(1)} aria-label="Next document">›</button>
-          </div>
+          </HoverSky>
           <div className="pdf-caption" aria-live="polite">
             <p className="pdf-count">{String(active + 1).padStart(2, "0")} / {String(documents.length).padStart(2, "0")} <span>{documents[active].category}{documents[active].year ? ` · ${documents[active].year}` : ""}</span></p>
             <h3>{documents[active].title}</h3>

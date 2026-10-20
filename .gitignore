@@ -36,6 +36,14 @@ Desktop.ini
 .idea/
 .vscode/
 .cline/
+.cursor/
+.claude/
+.roo/
+.continue/
+.aider*
+.codex/
+.codebuff/
+.codebase-memory/
 *.swp
 *.swo
 *~
@@ -43,6 +51,32 @@ Desktop.ini
 # local archives and exports
 /CV Bintang Danuarta.pdf
 /cv_bintang_danuarta.md
+*.pdf.lock
+screenshots/
+20*_*-*.png
+
+# Presentation originals are deployed separately, not stored in Git.
+/public/pdfs/*.pdf
+/public/images/
+/public/projects/
+/public/pdfs/
+/public/*.pdf
+/public/*.svg
+/public/*.png
+/public/*.jpg
+/public/*.jpeg
+/public/*.webp
+/public/*.avif
+/public/*.gif
+/public/*.ico
+/Screen Recording*.mov
+/Screen Recording*.mp4
+/site-deploy*.tar.gz
+/porto-*.tar.gz
+
+# local docs (internal, not for publishing)
+DEPLOYMENT.md
+TECH_STACK_REQUIREMENTS.md
 
 # debug
 npm-debug.log*
@@ -61,4 +95,3 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-DEPLOYMENT.md
